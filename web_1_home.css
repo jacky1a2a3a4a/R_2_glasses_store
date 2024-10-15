@@ -292,6 +292,12 @@ body {
 /* cover-rwd */
 @media(max-width:768px) {
   .jb-cover {
+    background-image: url(./images/home-header.png);
+    background-size: cover;
+    background-position: 30% 50%;
+  }
+
+  .jb-cover {
     height: calc(100vh - 20px);
   }
 
